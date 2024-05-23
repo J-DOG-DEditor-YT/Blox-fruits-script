@@ -1,0 +1,8 @@
+echo "# Blox-fruits-script" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/J-DOG-DEditor-YT/Blox-fruits-script.git
+git push -u origin main
+loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
